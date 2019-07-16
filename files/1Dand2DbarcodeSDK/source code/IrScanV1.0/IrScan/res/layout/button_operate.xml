@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android" 
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" 
+        android:gravity="end"
+        android:orientation="horizontal" >
+        
+       		
+       	     <Button   
+            		android:id="@+id/button_setting"  
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:textColor="#ff0000" 
+            		android:textStyle="bold"
+            		android:textSize="40sp"
+            		android:layout_weight="1"
+            		android:width="300dp"
+            		android:onClick="do_it"
+            		android:text="@string/txt_setting"/> 
+          
+       	    <Button   
+            		android:id="@+id/button_scan"  
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:textColor="#ff0000" 
+            		android:textStyle="bold"
+            		android:width="300dp"
+            		android:textSize="40sp"
+            		android:layout_weight="1"
+            		android:onClick="do_it"
+            		android:text="@string/txt_scan"/> 
+            		
+</LinearLayout>   

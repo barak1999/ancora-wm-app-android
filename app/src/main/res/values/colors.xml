@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#7384e7</color>
+    <!--<color name="colorPrimary">#4b65ff</color>-->
+    <color name="colorPrimary">#3c9aff</color>
+    <!--color name="colorPrimaryDark">#303f9f</color>-->
+    <color name="colorPrimaryDark">#3185f9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="omarevenGriglia">#fafafa</color>
+    <color name="omaroddGriglia">#f7f1b3</color>
+    <color name="omardisableGriglia">#6c6c6c</color>
+
+    <color name="omareven">#fafafa</color>
+    <!--color name="omarodd">#f5f5f5</color-->
+    <color name="omarodd">#f5f5f5</color>
+
+    <color name="omarbackground">#e0e0e0</color>
+    <!--color name="omarbackground">#ff4340</color -->
+    <!-- color name="omarbackground">#b0b0b0</color> -->
+    <color name="checkbox">#ff6e40</color>
+    <color name="checkbox_background">#dadad9</color>
+    <color name="selected">#7384e7</color>
+
+    <color name="colorERROR">#ff4340</color>
+    <color name="colorOK">#b6ff40</color>
+    <color name="colorOKDark">#009900</color>
+
+
+
+</resources>

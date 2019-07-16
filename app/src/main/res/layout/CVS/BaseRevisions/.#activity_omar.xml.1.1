@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ancoragroup.wm.MainActivity"
+    android:background="@drawable/background_corpo">
+
+    <include layout="@layout/toolbar"
+        />
+
+
+
+    <!--<Button
+        android:id="@+id/bottoneAvanti"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorOK"
+        android:onClick="bottoneAvantiClick"
+        android:text="Avanti"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="sans-serif-condensed" />
+
+    <Button
+        android:id="@+id/bottoneAzione1"
+        android:layout_width="@dimen/button_width2"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorPrimary"
+        android:onClick="bottoneAzione1Click"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneIndietro"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:layout_marginStart="@dimen/riga_padding"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <Button
+        android:id="@+id/bottoneAzione2"
+        android:layout_width="@dimen/button_width2"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorPrimary"
+        android:onClick="bottoneAzione2Click"
+        android:text=""
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneAzione1"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:layout_marginStart="@dimen/riga_padding"
+        android:fontFamily="sans-serif-light"/>
+
+    <Button
+        android:id="@+id/bottoneAzione3"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorPrimary"
+        android:onClick="bottoneAzione3Click"
+        android:text=""
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneAzione2"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:layout_marginStart="@dimen/riga_padding"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:id="@+id/bottoneIndietro"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginRight="@dimen/riga_padding"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorERROR"
+        android:onClick="bottoneIndietroClick"
+        android:text="@string/Indietro"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        android:layout_marginEnd="@dimen/riga_padding"
+        android:fontFamily="sans-serif-condensed"/>-->
+    <Button
+        android:id="@+id/bottoneAzione1"
+        android:layout_width="@dimen/button_width2"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorPrimary"
+        android:onClick="bottoneAzione1Click"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneIndietro"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:fontFamily="sans-serif-condensed" />
+
+    <Button
+        android:id="@+id/bottoneAzione2"
+        android:layout_width="@dimen/button_width2"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorPrimary"
+        android:onClick="bottoneAzione2Click"
+        android:text=""
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneAzione1"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:fontFamily="sans-serif-condensed" />
+
+    <Button
+        android:id="@+id/bottoneAzione3"
+        android:layout_width="@dimen/button_width2"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorPrimary"
+        android:onClick="bottoneAzione3Click"
+        android:text=""
+
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneAzione2"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:fontFamily="sans-serif-condensed" />
+
+
+    <Button
+        android:id="@+id/bottoneAvanti"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorOK"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="bottoneAvantiClick"
+        android:text="Avanti"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:layout_constraintLeft_toRightOf="@+id/bottoneAzione3"
+        android:layout_marginLeft="@dimen/riga_padding" />
+
+    <Button
+        android:id="@+id/bottoneIndietro"
+        android:layout_width="@dimen/button_width2"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="@dimen/riga_padding"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/colorERROR"
+        android:onClick="bottoneIndietroClick"
+        android:textSize="24dp"
+        android:text="@string/Indietro"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        android:fontFamily="sans-serif-condensed" />
+
+
+
+    <!-- android:layout_marginBottom="84dp"
+   android:layout_marginLeft="8dp"
+   android:layout_marginRight="8dp"
+   -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/griglia_space_footer"
+        android:layout_marginTop="@dimen/riga_padding"
+        android:background="@color/omarbackground"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <GridView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/toolbar_space"
+            android:background="@color/omarbackground"></GridView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/anteprima"
+        android:layout_width="@dimen/anteprima_width"
+        android:layout_height="@dimen/anteprima_height"
+        android:layout_marginBottom="111dp"
+        android:layout_marginLeft="@dimen/riga_padding"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/background_splash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:visibility="invisible"
+        android:layout_marginStart="@dimen/riga_padding"
+        android:layout_marginEnd="25dp" />
+
+
+
+    <TableLayout
+        android:id="@+id/tabella"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="111dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/omarbackground"
+        android:visibility="invisible">
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

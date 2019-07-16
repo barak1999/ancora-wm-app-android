@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ancoragroup.wm">
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ancoragroup.wm.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BarCode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImpostazioniSAP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImpostazioniApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SapMenu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrendiParametri"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Griglia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dettaglio"
+            android:screenOrientation="portrait" />
+        <activity android:name=".InfoStockZmag" />
+        <activity android:name=".MancantiZmag" />
+        <activity android:name=".Esito" />
+        <activity android:name=".ListaPrelVendita" />
+        <activity android:name=".ListaPrelItem" />
+        <activity android:name=".ListaPrelProd" />
+        <activity android:name=".MessaInUbicazioneDaBem" />
+        <activity android:name=".VersioniActivity" />
+        <activity android:name=".LT24" />
+        <activity android:name=".VerificaCassoni" />
+        <activity android:name=".SpostaModula" />
+        <activity android:name=".DistintaMacchina" />
+        <activity android:name=".ElencoCassoni" />
+        <activity android:name=".ScriviRFID" />
+        <activity android:name=".DoveCassone" />
+        <activity android:name=".History" />
+    </application>
+
+</manifest>

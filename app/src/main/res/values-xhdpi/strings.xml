@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_type_single">singolo</string>
+    <string name="button_type_multiple">multiplo</string>
+</resources>
